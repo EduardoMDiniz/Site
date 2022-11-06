@@ -24,7 +24,7 @@ const loop = setInterval(() => {
             alexandre.style.animationn = 'none';
             alexandre.style.bottom = `${alexandreposition}px`;
 
-            alexandre.src ='./imagens/gameover-1.png.png'
+            alexandre.src ='./imagens/gameover.png'
 
             clearInterval(loop)
         }
