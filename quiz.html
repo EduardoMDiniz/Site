@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+
+
+<main>
+<section class="conteiner">
+    <img src="Imagens/urna.jpeg" width="450" class= "urna">
+    <div id = "titulo"></div>
+</section>   
+    <ul class= "alter" onclick="">
+        <li class="alternativa"></li>
+        <li class="alternativa" id= "cor"></li>
+    </ul>
+    <div id ="result"></div>
+    <div id = "pontos"></div> 
+
+</main>
+
+</body>
+</html>
+
+
+<script src = "scriptquiz.js"></script>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   #titulo{
+      position: absolute;
+      position: fixed; 
+      text-align: center;
+      top: 250px;
+      left: 310px;
+      width: 250px;
+      line-height: 30px;
+      height: 30px;
+      font-weight: bold
+   }
+    .alternativa{
+        text-decoration: none;
+        border-radius: 5px;
+        width: 75px;
+        text-align: center;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 9px;
+        background-color: #43A047;
+        color: #fff;
+
+    }
+    .alter #cor{
+        text-decoration: none;
+        border-radius: 5px;
+        width: 75px;
+        text-align: center;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 9px;
+        background-color: #a04343;
+        color: #fff; 
+        
+    }
+    .conteiner{
+        position: fixed;
+        width: 100vh;
+        margin: auto;
+
+    }
+    .conteiner img{
+        position: relative;
+        position: fixed;
+        top: 180px;
+        left: 290px;
+        border-radius: 8px;
+    }
+
+    .alter{
+        position: absolute;
+        position: fixed;
+        display: flex;
+        list-style-type: none;
+        top: 349px;
+        left: 574px;
+        padding-left: 9px;
+    }
+    .alternativa:hover{
+        cursor: pointer;
+        opacity: 10;
+        background-color: rgb(70, 211, 31);
+        transition: 0.7s;
+    }
+    .alter #cor:hover{
+        background-color: rgb(211, 31, 31);
+        transition: 0.7s;
+    }
+
+
+    #pontos{
+        position: absolute;
+        position: fixed;
+        top: 430px;
+        left: 467px;
+        color: #43A047;
+    }
+      #result{
+      position: absolute;
+      position: fixed; 
+      text-align: center;
+      top: 455px;
+      left: 398px;
+      width: 250px;
+      line-height: 30px;
+      height: 30px;
+      color: blue;
+    }
+
+    
+
+</style>
+<script type="text/javascript">
+</script>
+
+
+
+
+

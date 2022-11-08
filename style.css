@@ -22,6 +22,12 @@ li,a{
     padding: 30px 10%;
 }
 
+@media screen and (max-width: 900px){
+    .header,.navegacao{
+        flex-direction: column;
+    }
+}
+
 .logo{
     float: left;
     height: 80px;
@@ -171,7 +177,6 @@ li,a{
     height: 33vh;
     order: 3;
 }
-
 
 
 .pardal::after,.pardal::before{
