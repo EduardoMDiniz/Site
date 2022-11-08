@@ -1,18 +1,18 @@
 let perguntas = [
     {
-        titulo: "O VOTO BRANCO VAI PARA O CANDIDATO QUE ESTÁ NA FRENTE ?",
+        titulo: "É verdade que a eleição foi auditada e tida como tendenciosa?",
         alternativas: ['VERDADE','FAKE'],
         correta: 1
     },
     {
-        titulo: 'DA NO MESMO VOTAR NULO OU EM BRANCO ? ',
+        titulo: 'É verdade que o TSE é responsável por coordenar e tornar as eleições justas ? ',
         alternativas: ['VERDADE','FAKE'],
         correta: 0
     },
     {
-        titulo: 'NINGUEM PODE SER PRESO NO DIA DA ELEIÇAO ?',
+        titulo: 'É verdade que só é preciso de 50% dos votos mais 1 (um) para ser vitorioso ?',
         alternativas: ['VERDADE','FAKE'],
-        correta: 1
+        correta: 0
     }
     ]
     
